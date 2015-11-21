@@ -1,0 +1,15 @@
+{
+    "name": "najaram/moviefetcher",
+    "description": "Solution to the MovieFetcher exercise.",
+    "autoload": {
+        "psr-4": {
+            "Najaram\\MovieFetcher\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "~2.7",
+        "symfony/css-selector": "~2.7",
+        "guzzlehttp/guzzle": "~6.0",
+        "league/uri": "~4.0"
+    }
+}
